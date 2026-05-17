@@ -3,7 +3,7 @@
     "extends": [
         "github>riffingonsoftware/renovate-config"
     ],
-    "minimumReleaseAge": "14 days",
+    "minimumReleaseAge": "7 days",
     "postUpdateOptions": [
         "gomodTidy"
     ]
