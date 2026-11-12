@@ -4,16 +4,9 @@
     "config:base"
   ],
   "minimumReleaseAge": "7 days",
+  "automerge": true,
+  "automergeType": "branch",
   "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true,
-    "automergeType": "branch"
-  },
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["major", "minor", "patch", "pin", "digest"],
-      "automerge": true,
-      "automergeType": "branch"
-    }
-  ]
+    "enabled": true
+  }
 }
